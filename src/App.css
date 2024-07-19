@@ -1,0 +1,180 @@
+body{
+    font-family: 'Krub';
+}
+.about{
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.about-button{
+    background-color: #DAE021 !important;
+    color: #fff !important;
+}
+
+/* contact */
+
+.contact{
+    z-index: -1;
+}
+
+.icon-service{
+    background-color:#5BB543;
+    color:#fff;
+}
+.banner-section{
+    background-image: url('./assets/images/banner.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.form{
+    position: relative;
+    left: -20px;
+    top: 7rem;
+}
+.stick-navbar{
+    position: relative;
+    top: -2rem;
+}
+.slider-container{
+    position: relative;
+    margin-top: -25rem;
+    z-index: -1;
+}
+.stick-section{
+    position: relative;
+    top: -9rem;
+}
+
+.lines{
+    border-bottom: 1px solid #c9c9c9 !important;
+}
+
+.video{
+    margin: 0 !important;
+}
+
+@media screen and (max-width:576px) {
+    #video{
+        margin-top: -10rem;
+    }
+}
+
+/* breadcrumb */
+#breadcrumb{
+    position: relative;
+    top: -5rem;
+    z-index: -3;
+}
+
+.aim-and-function{
+    animation: none !important;
+}
+
+/* hotel plaza */
+
+
+.shgkm{
+    position: relative;
+    top: 1rem;
+}
+.w{
+    border-bottom: 1px solid #eee;
+    padding-bottom: 2px;
+    text-transform: uppercase;
+}
+.q{
+    letter-spacing: 2.3px;
+}
+
+.ddd{
+    position: relative;
+    top: 8px;
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        scale: 0.2;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+
+/* google fonts */
+.krub-extralight {
+font-family: "Krub", sans-serif;
+font-weight: 200;
+font-style: normal;
+}
+
+.krub-light {
+font-family: "Krub", sans-serif;
+font-weight: 300;
+font-style: normal;
+}
+
+.krub-regular {
+font-family: "Krub", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.krub-medium {
+font-family: "Krub", sans-serif;
+font-weight: 500;
+font-style: normal;
+}
+
+.krub-semibold {
+font-family: "Krub", sans-serif;
+font-weight: 600;
+font-style: normal;
+}
+
+.krub-bold {
+font-family: "Krub", sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+.krub-extralight-italic {
+font-family: "Krub", sans-serif;
+font-weight: 200;
+font-style: italic;
+}
+
+.krub-light-italic {
+font-family: "Krub", sans-serif;
+font-weight: 300;
+font-style: italic;
+}
+
+.krub-regular-italic {
+font-family: "Krub", sans-serif;
+font-weight: 400;
+font-style: italic;
+}
+
+.krub-medium-italic {
+font-family: "Krub", sans-serif;
+font-weight: 500;
+font-style: italic;
+}
+
+.krub-semibold-italic {
+font-family: "Krub", sans-serif;
+font-weight: 600;
+font-style: italic;
+}
+
+.krub-bold-italic {
+font-family: "Krub", sans-serif;
+font-weight: 700;
+font-style: italic;
+}
+  

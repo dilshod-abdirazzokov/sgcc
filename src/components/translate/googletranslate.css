@@ -1,0 +1,13 @@
+.goog-te-gadget-simple {
+    display: flex !important;
+    background-color: transparent;
+    padding: 15px;
+}
+
+.goog-te-gadget-simple span {
+    display: none !important;
+}
+.goog-te-gadget-simple{
+    background-color: transparent !important;
+    border: none;
+}

@@ -1,0 +1,36 @@
+/* FloatingMenu.css */
+.floating-menu {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    background-color: #265073;
+    z-index: 999;
+}
+  
+.floating-menu ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+.floating-menu li {
+margin: 10px 0;
+}
+
+.floating-menu a {
+color: white;
+text-decoration: none;
+display: block;
+padding: 10px 15px;
+transition: background-color 0.3s;
+}
+
+.floating-menu a svg{
+font-size: 1.3rem;
+}
+
+.floating-menu a:hover {
+color: #575757;
+background-color: #fff;
+}
