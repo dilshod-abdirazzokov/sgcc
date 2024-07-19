@@ -19,7 +19,7 @@ const CurrentDate = () => {
 
   return (
     <div>
-      <p className='text-white text-[.9rem] font-bold flex items-center space-x-3'><span>{formattedDate}</span></p>
+      <p className='text-[.9rem] font-bold flex items-center space-x-3'><span>{formattedDate}</span></p>
     </div>
   );
 };

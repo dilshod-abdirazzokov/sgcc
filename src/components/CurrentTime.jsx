@@ -14,7 +14,7 @@ const CurrentTime = () => {
 
   return (
     <div>
-       <span className='text-white font-bold'>{currentTime.toLocaleTimeString()}</span>
+       <span className='font-bold'>{currentTime.toLocaleTimeString()}</span>
     </div>
   )
 

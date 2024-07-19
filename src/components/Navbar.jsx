@@ -30,7 +30,7 @@ const Navbar = () => {
             </li>
             <li className='dropdown '>   
                 <details>
-                <summary className='text-white'>Majmua</summary>
+                <summary >Majmua</summary>
                 <ul  className="dropdown-content p-2 md:w-[12rem] ">
                 <li>
                     <NavLink to='/aboutPage'>Majmua faoliyati</NavLink>
@@ -46,11 +46,11 @@ const Navbar = () => {
                 </ul>
                 </details>
             </li>
-            <li className='text-white'><NavLink to='/OpenData'>Ochiq ma'lumotlar </NavLink></li>
+            <li><NavLink to='/OpenData'>Ochiq ma'lumotlar </NavLink></li>
             <li className='dropdown'>
                 <details>
-                <summary className='text-white'>Mahsulotlar</summary>
-                <ul className="dropdown-content p-2 w-[12rem]">
+                <summary>Mahsulotlar</summary>
+                <ul className="dropdown-content p-2 w-[25rem]">
                 <li><NavLink to='/MainProduct'>Ishlab chiqarilayotgan mahsulotlar</NavLink></li>
                 <li><a>Ehtiyoji yo'q likvid va nolikvid tovarlarni sotish</a></li>
                 </ul>
@@ -58,8 +58,8 @@ const Navbar = () => {
             </li>
             <li className='dropdown'>
                 <details>
-                <summary className='text-white'>Xaridlar</summary>
-                <ul className="dropdown-content p-2 w-[12rem]">
+                <summary>Xaridlar</summary>
+                <ul className="dropdown-content p-2 w-[15rem]">
                 <li><NavLink to='/MarketingSection'>Savdo bo'limi</NavLink></li>
                 <li><a href='https://sgcc.uz/uz/purchases/commercial-requests' target='_blank'>Tijorat so'rovlari</a></li>
                 <li><a href='https://sgcc.uz/uz/purchases/contests' target='_blank'>Tanlovlar va tenderlar</a></li>
@@ -68,8 +68,8 @@ const Navbar = () => {
             </li>
             <li className='dropdown'>
                 <details>
-                <summary className='text-white'>Media</summary>
-                <ul className="dropdown-content p-2 md:w-[12rem]">
+                <summary>Media</summary>
+                <ul className="dropdown-content p-2 md:w-[17rem]">
                 <li><Link to='/PhotoGallery'>Majmua fotosuratlari</Link></li>
                 <li><a>Majmua videomateriallari</a></li>
                 </ul>
@@ -77,7 +77,7 @@ const Navbar = () => {
             </li>
             <li className='dropdown'>
                 <details>
-                <summary className='text-white'>Qayta aloqa</summary>
+                <summary>Qayta aloqa</summary>
                 <ul  className="dropdown-content p-2 absolute z-50 md:w-[12rem]">
                 <li><NavLink to='/SendResume'>Rezyume yuborish</NavLink></li>
                 <li><NavLink to='/AddressAndPhone'>Manzil va telefonlar</NavLink></li>
@@ -86,7 +86,7 @@ const Navbar = () => {
                 </ul>
                 </details>
             </li>
-            <li className='text-white'>
+            <li>
                 <NavLink to='/HotelBooking'>Hotel Shurtan Plaza</NavLink>
             </li> 
         </>
@@ -94,14 +94,14 @@ const Navbar = () => {
   return (
       <>
         <section className="w-full stick-navbar hidden md:block font-bold" style={{zIndex:"999"}}>
-          <div className="navbar bg-[#09124240]  px-12 shadow-lg ">
+          <div className="navbar bg-white  px-12 shadow-lg ">
             <div className="navbar-start"></div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1 text-[15px]">
                 {navItems}                       
                 </ul>
             </div>
-            <div className="navbar-end space-x-5 mr-[6rem]">
+            <div className="navbar-end space-x-6 mr-[6rem]">
                <div><img className='h-[3rem]' src={calendar} alt="live time" /></div>
                <div className='flex flex-col items-center'>
                 <CurrentTime />
