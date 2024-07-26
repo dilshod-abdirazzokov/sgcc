@@ -96,7 +96,7 @@ const CardProduct = () => {
   }, []);
 
   return (
-    <div ref={swiperRef} className="swiper slide-container mx-auto py-10" style={{ maxWidth: '1600px', marginBottom:"100px" }}>
+    <div ref={swiperRef} className="swiper slide-container mx-auto py-10" style={{ maxWidth: '1300px', marginBottom:"100px" }}>
       <div className="slide-content swiper-wrapper rounded-3xl overflow-hidden" >
         {marks.map((mark) => (
           <div key={mark.id} className="card swiper-slide bg-white rounded-3xl shadow-lg p-4 flex flex-col items-center" style={{ width: '350px', height: '600px' }}>
