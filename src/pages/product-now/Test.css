@@ -1,0 +1,22 @@
+
+.swiper-button-next,
+.swiper-button-prev {
+  font-size: 2rem;
+}
+.swiper-pagination-bullet {
+  background-color: #6e93f7;
+}
+.swiper-pagination-bullet-active {
+  background-color: #4070f4;
+}
+.line-clamp-3 {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+  }
+  .card11{
+    width: 310px !important;
+    height: 700px !important;
+  }
