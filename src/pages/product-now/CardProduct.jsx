@@ -96,10 +96,10 @@ const CardProduct = () => {
   }, []);
 
   return (
-    <div ref={swiperRef} className="swiper slide-container mx-auto py-10" style={{ maxWidth: '1300px', marginBottom:"100px" }}>
+    <div ref={swiperRef} className="swiper slide-container mx-auto py-10" style={{ maxWidth: '1200px', marginBottom:"100px" }}>
       <div className="slide-content swiper-wrapper rounded-3xl overflow-hidden" >
         {marks.map((mark) => (
-          <div key={mark.id} className="card swiper-slide bg-white rounded-3xl shadow-lg p-4 flex flex-col items-center" style={{ width: '350px', height: '600px' }}>
+          <div key={mark.id} className="card swiper-slide bg-white rounded-3xl shadow-lg p-4 flex flex-col items-center" style={{ width: '350px', height: '55 0px' }}>
             <img className="lg:h-72 md:h-36 w-full object-cover object-center" src={mark.productImg} alt={mark.title} />
             <div className="p-6">
               <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">{mark.subtitle}</h2>
